@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taniti Island – Plan Your Trip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+
+  <header>
+    <div class="wrap nav">
+      <div class="brand">TANITI ISLAND</div>
+      <nav class="menu" aria-label="Primary">
+        <a href="#activities">Activities</a>
+        <a href="#lodging">Lodging</a>
+        <a href="#dining">Dining</a>
+        <a href="#transportation">Transportation</a> <!-- Added per P1 feedback -->
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <!-- HERO / OVERVIEW -->
+    <section class="hero" aria-labelledby="welcome">
+      <div>
+        <h1 id="welcome">Welcome to Taniti — your tropical island getaway</h1>
+        <p class="meta">
+          A small Pacific island with sandy and rocky beaches, lush rainforests, and a mountainous interior with a small active volcano.
+          Enjoy a safe harbor, rich culture, and growing visitor amenities.
+        </p>
+        <div class="kpis" aria-label="At-a-glance highlights">
+          <span>• 10 restaurants (local fish & rice, American, Pan-Asian)</span>
+          <span>• Lodging from hostels to a four-star resort</span>
+          <span>• Beaches, rainforest hikes, volcano visits & more</span>
+        </div>
+      </div>
+      <div class="cta">
+        <a class="btn primary" href="#lodging">Book Now</a> <!-- Changed label per P2 feedback -->
+        <a class="btn" href="#activities">View Activities</a>
+        <a class="btn" href="#transportation">Getting Around</a>
+      </div>
+    </section>
+
+    <!-- ACTIVITIES (moved high per P3 feedback) -->
+    <section id="activities" aria-labelledby="act-title">
+      <h2 id="act-title">Things to Do</h2>
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>Beaches & Snorkeling</h3>
+          <p>Swim, relax, or snorkel along the white sands around Yellow Leaf Bay. Charter fishing tours also available.</p>
+        </article>
+        <article class="card">
+          <h3>Rainforest & Volcano</h3>
+          <p>Hike rainforest trails and visit the island’s small, active volcano for unforgettable views.</p>
+        </article>
+        <article class="card">
+          <h3>Culture & Nightlife</h3>
+          <p>Local history museum, galleries, pub crawl (including a microbrewery), dance club, movies, bowling & arcade.</p>
+        </article>
+      </div>
+      <p class="meta">Tip: Merriton Landing (north side of Yellow Leaf Bay) hosts many activities and is easy to explore on foot.</p>
+    </section>
+
+    <!-- LODGING with clear CTAs -->
+    <section id="lodging" aria-labelledby="lodging-title">
+      <h2 id="lodging-title">Stay on Taniti</h2>
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>Four-Star Resort</h3>
+          <p>Full-service comfort with amenities near beaches and attractions.</p>
+          <a class="btn primary" href="#booking">Book Now</a>
+        </article>
+        <article class="card">
+          <h3>Family-Owned Hotels</h3>
+          <p>Locally operated and regularly inspected for quality and safety.</p>
+          <a class="btn primary" href="#booking">Book Now</a>
+        </article>
+        <article class="card">
+          <h3>Hostel & B&amp;B</h3>
+          <p>Budget-friendly hostel and cozy bed &amp; breakfasts across the island.</p>
+          <a class="btn primary" href="#booking">Book Now</a>
+        </article>
+      </div>
+      <p id="booking" class="meta">All lodging types are regulated and inspected by the Tanitian government.</p>
+    </section>
+
+    <!-- DINING -->
+    <section id="dining" aria-labelledby="dining-title">
+      <h2 id="dining-title">Dining</h2>
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>Local Fish &amp; Rice</h3>
+          <p>Five restaurants focus on fresh local catch and island flavors.</p>
+        </article>
+        <article class="card">
+          <h3>American-Style</h3>
+          <p>Three restaurants serving familiar comfort meals.</p>
+        </article>
+        <article class="card">
+          <h3>Pan-Asian</h3>
+          <p>Two options that blend regional Asian cuisines.</p>
+        </article>
+      </div>
+      <p class="meta">Grocery options include two supermarkets, two small groceries, and a 24-hour convenience store.</p>
+    </section>
+
+    <!-- TRANSPORTATION (explicit tab + concise section) -->
+    <section id="transportation" aria-labelledby="transport-title">
+      <h2 id="transport-title">Transportation</h2>
+      <div class="grid cols-2">
+        <article class="card">
+          <h3>Arriving</h3>
+          <ul>
+            <li>Small airport (expansion planned for larger jets).</li>
+            <li>Small cruise ship docks one night per week at Yellow Leaf Bay.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Getting Around</h3>
+          <ul>
+            <li>Public buses in Taniti City (5 a.m.–11 p.m.). Private buses serve the rest of the island.</li>
+            <li>Taxis and local rental cars near the airport.</li>
+            <li>Bike rentals with helmets (required by law). City is flat and very walkable.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ / ESSENTIAL INFO -->
+    <section id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">FAQ & Essentials</h2>
+      <div class="grid cols-2">
+        <article class="card">
+          <h3>Safety & Health</h3>
+          <ul>
+            <li>Violent crime is rare; watch for petty theft as tourism grows.</li>
+            <li>One hospital with multilingual staff; several clinics available.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Money & Power</h3>
+          <ul>
+            <li>USD used widely; many accept euros and yen; major credit cards accepted.</li>
+            <li>Power outlets 120V (U.S. standard).</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Language & Customs</h3>
+          <ul>
+            <li>Many younger locals speak English; less common in rural areas and among older residents.</li>
+            <li>Alcohol cannot be sold/served from midnight–9 a.m.; drinking age is 18 (not strictly enforced).</li>
+            <li>Many attractions and restaurants close on national holidays.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p></p>
+  </footer>
+</body>
+</html>
